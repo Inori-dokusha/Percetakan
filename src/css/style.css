@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styling the tag a on navbar */
+.nav-links {
+  @apply text-black hover:text-magenta transition-colors duration-300;
+}
