@@ -4,5 +4,9 @@
 
 /* styling the tag a on navbar */
 .nav-links {
-  @apply text-black hover:text-magenta transition-colors duration-300;
+  @apply text-black hover:text-magenta transition-colors duration-300 font-medium;
+}
+
+section {
+  @apply p-5;
 }

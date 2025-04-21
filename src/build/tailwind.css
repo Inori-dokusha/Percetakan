@@ -142,7 +142,7 @@ html,
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
      tab-size: 4; /* 3 */
-  font-family: Work, sans-serif; /* 4 */
+  font-family: Work Sans, sans-serif; /* 4 */
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
   -webkit-tap-highlight-color: transparent; /* 7 */
@@ -532,6 +532,9 @@ video {
     max-width: 1536px;
   }
 }
+.relative {
+  position: relative;
+}
 .sticky {
   position: sticky;
 }
@@ -541,27 +544,32 @@ video {
 .z-40 {
   z-index: 40;
 }
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
 .flex {
   display: flex;
+}
+.h-96 {
+  height: 24rem;
+}
+.h-full {
+  height: 100%;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.w-96 {
+  width: 24rem;
 }
 .w-full {
   width: 100%;
 }
-.content-end {
-  align-content: flex-end;
-}
-.items-start {
-  align-items: flex-start;
-}
-.items-end {
-  align-items: flex-end;
+.shrink-0 {
+  flex-shrink: 0;
 }
 .items-center {
   align-items: center;
+}
+.justify-end {
+  justify-content: flex-end;
 }
 .justify-center {
   justify-content: center;
@@ -569,11 +577,18 @@ video {
 .gap-1 {
   gap: 0.25rem;
 }
-.gap-3 {
-  gap: 0.75rem;
+.gap-6 {
+  gap: 1.5rem;
 }
-.self-end {
-  align-self: flex-end;
+.gap-x-8 {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-x-scroll {
+  overflow-x: scroll;
 }
 .scroll-smooth {
   scroll-behavior: smooth;
@@ -581,16 +596,33 @@ video {
 .border {
   border-width: 1px;
 }
-.border-2 {
-  border-width: 2px;
-}
-.border-green-600 {
+.border-black {
   --tw-border-opacity: 1;
-  border-color: rgb(22 163 74 / var(--tw-border-opacity, 1));
+  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+}
+.border-red-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(185 28 28 / var(--tw-border-opacity, 1));
 }
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.bg-bannerOne {
+  background-image: url(../assets/images/banner/images-1.jpg);
+}
+.bg-center {
+  background-position: center;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.p-3 {
+  padding: 0.75rem;
 }
 .px-5 {
   padding-left: 1.25rem;
@@ -601,18 +633,38 @@ video {
   padding-bottom: 1.25rem;
 }
 .font-sans {
-  font-family: Work, sans-serif;
+  font-family: Work Sans, sans-serif;
 }
 .font-serif {
   font-family: Nunito, serif;
 }
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.text-cyan {
+  --tw-text-opacity: 1;
+  color: rgb(0 184 230 / var(--tw-text-opacity, 1));
+}
+.text-magenta {
+  --tw-text-opacity: 1;
+  color: rgb(250 22 113 / var(--tw-text-opacity, 1));
+}
+.subpixel-antialiased {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+.drop-shadow-lg {
+  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 /* styling the tag a on navbar */
 .nav-links {
+  font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
@@ -622,4 +674,8 @@ video {
 .nav-links:hover {
   --tw-text-opacity: 1;
   color: rgb(250 22 113 / var(--tw-text-opacity, 1));
+}
+
+section {
+  padding: 1.25rem;
 }
