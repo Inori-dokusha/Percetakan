@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id-en" class="scroll-smooth subpixel-antialiased">
   <head>
     <meta charset="UTF-8" />
@@ -20,32 +20,42 @@
 
   <body class="font-sans">
     <!-- Header -->
-    <div class="sticky top-0 bg-white px-5 py-5 z-40 drop-shadow-lg">
+    <div class="sticky top-0 bg-white px-5 py-2 z-40 drop-shadow-lg">
       <div class="flex items-center justify-center">
         <!-- Logo -->
-        <div class="w-full">
+        <div class="w-full shrink-1">
           <a href="#" class="flex items-center gap-1">
-            <img src="/assets/brand-logo/Michael Jaya Logo.svg" alt="Logo Michael Jaya" />
-            <span class="font-serif text-2xl font-bold text-magenta">Michael <span class="text-cyan">Jaya</span></span>
+            <img class="w-14 md:w-fit" src="/assets/brand-logo/Michael Jaya Logo.svg" alt="Logo Michael Jaya" />
+            <span class="font-serif text-3xl font-black text-magenta md:text2xl">Michael <span class="text-cyan">Jaya</span></span>
           </a>
         </div>
 
         <!-- Menu -->
-        <div class="w-full flex justify-end">
-          <div class="flex gap-6 p-3">
+        <div class="flex justify-center shrink-0">
+          <div class="hidden gap-6 p-3 md:flex">
             <a href="#home" class="nav-links">Beranda</a>
             <a href="#services" class="nav-links">Layanan</a>
             <a href="#testimonial" class="nav-links">Testimoni</a>
             <a href="#price" class="nav-links">Harga</a>
             <a href="#contact" class="nav-links">Kontak</a>
           </div>
+          <!-- hamburger toggle -->
+          <div id="hamburgerToggle" class="flex flex-col gap-y-1 p-3 rounded-xl hover:bg-gray-100" aria-label="hamburger toggle">
+            <span class="line-top w-8 h-1 bg-black"></span>
+            <span class="line-middle w-8 h-1 bg-black"></span>
+            <span class="line-bottom w-8 h-1 bg-black"></span>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Hero Section -->
-    <section id="home" class="min-h-screen">
-      .
+    <section id="home" class="min-h-screen bg-imagesOne bg-center object-center bg-no-repeat flex items-center justify-center">
+      <div class="text-center">
+        <h1 class="text-2xl font-bold leading-none">Cetak undangan, brosur atau yang lainnya?</h1>
+        <h3 class="leading-none mb-3">Kami menyediakan berbagai layanan yang Anda butuhkan, seperti undangan, spanduk, dan lainnya</h3>
+        <button class="text-white bg-cyan px-3 py-2 rounded-lg">Lihat layanan</button>
+      </div>
     </section>
 
     <!-- Services section -->
