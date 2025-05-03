@@ -1,0 +1,102 @@
+#service {
+  padding: 50px 20px;
+}
+
+.services-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(196, 196, 196);
+  margin-bottom: 50px;
+}
+
+.services-title h1 {
+  font-size: calc(16px * 3);
+  flex: 1;
+  font-weight: 700;
+  color: var(--cyan);
+}
+
+.services-title p {
+  width: 30%;
+  text-align: end;
+  font-weight: 600;
+}
+
+.services-items {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 200px);
+}
+
+.services-item-card {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 12px;
+  box-shadow: 0 4px 5px rgba(223, 223, 223, 0.8);
+  transition: all 300ms;
+  display: flex;
+  align-items: center;
+}
+
+.services-item-card:hover {
+  box-shadow: 0 7px 10px rgba(223, 223, 223, 0.8);
+}
+
+.one {
+  background: center no-repeat url("/assets/images/services/cover\ book.png");
+}
+.two {
+  background: center no-repeat url("/assets/images/services/banner.png");
+}
+.three {
+  background: center no-repeat url("/assets/images/services/id\ card.png");
+}
+.four {
+  background: center no-repeat url("/assets/images/services/name\ card.png");
+}
+.five {
+  background: center no-repeat url("/assets/images/services/shirt.png");
+}
+.six {
+  background: center no-repeat url("/assets/images/services/sticker.jpeg");
+}
+
+.card-image {
+  background-size: contain;
+  width: calc(100% / 3);
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid rgba(143, 143, 143, 0.2);
+  margin-right: 10px;
+}
+
+.content-description {
+  padding: 10px;
+}
+
+.content-description h3 {
+  font-weight: 700;
+  font-size: calc(16px * 1.5);
+  color: var(--magenta);
+}
+
+.content-description p {
+  font-size: 14px;
+}
+
+.content-action {
+  margin-top: 20px;
+}
+
+.content-action a {
+  transition: all 250ms;
+  font-size: 14px;
+  color: var(--cyan);
+}
+
+.content-action a:hover {
+  color: var(--magenta);
+}
