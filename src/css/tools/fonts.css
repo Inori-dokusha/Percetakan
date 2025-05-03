@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Work Sans";
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  src: url(/assets/fonts/Work_Sans/WorkSans-Thin.ttf);
+}
+@font-face {
+  font-family: "Work Sans";
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  src: url(/assets/fonts/Work_Sans/WorkSans-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "Work Sans";
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  src: url(/assets/fonts/Work_Sans/WorkSans-Light.ttf);
+}
+@font-face {
+  font-family: "Work Sans";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  src: url(/assets/fonts/Work_Sans/WorkSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Work Sans";
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  src: url(/assets/fonts/Work_Sans/WorkSans-Medium.ttf);
+}
+@font-face {
+  font-family: "Work Sans";
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  src: url(/assets/fonts/Work_Sans/WorkSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Work Sans";
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  src: url(/assets/fonts/Work_Sans/WorkSans-Bold.ttf);
+}
+@font-face {
+  font-family: "Work Sans";
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  src: url(/assets/fonts/Work_Sans/WorkSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Work Sans";
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  src: url(/assets/fonts/Work_Sans/WorkSans-Black.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  src: url(/assets/fonts/Nunito/Nunito-Light.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  src: url(/assets/fonts/Nunito/Nunito-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  src: url(/assets/fonts/Nunito/Nunito-Regular.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  src: url(/assets/fonts/Nunito/Nunito-Medium.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  src: url(/assets/fonts/Nunito/Nunito-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  src: url(/assets/fonts/Nunito/Nunito-Bold.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  src: url(/assets/fonts/Nunito/Nunito-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  src: url(/assets/fonts/Nunito/Nunito-Black.ttf);
+}
