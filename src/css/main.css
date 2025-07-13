@@ -1,8 +1,8 @@
-@import url("/src/css/tools/fonts.css");
-@import url("/src/css/tools/reset.css");
-@import url("/src/css/components/navbar.css");
-@import url("/src/css/components/hero.css");
-@import url("/src/css/components/service.css");
-@import url("/src/css/components/price.css");
-@import url("/src/css/components/contact.css");
-@import url("/src/css/components/footer.css");
+/* utility */
+@import url("base/fonts.css");
+@import url("base/reset.css");
+
+/* components */
+@import url("components/nav.css")
+
+/* pages */
