@@ -22,6 +22,7 @@
       "ritwickdey.LiveServer"
       "shd101wyy.markdown-preview-enhanced"
       "vscode-icons-team.vscode-icons"
+      "WallabyJs.quokka-vscode"
     ];
 
     # Enable previews
