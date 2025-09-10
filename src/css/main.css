@@ -1,8 +1,39 @@
-/* utility */
-@import url("base/fonts.css");
-@import url("base/reset.css");
+/* Import components */
+@import url(components/nav.css);
 
-/* components */
-@import url("components/nav.css");
+/* Reset */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
 
-/* pages */
+/* Colors */
+:root {
+    /* Light */
+    --light-100: #ffffff;
+    --light-90: #f0f1f5;
+    --light-80: #e0e4eb;
+    --light-70: #d1d6e0;
+    --light-60: #bfc6d4;
+    /* Dark */
+    --dark-100: #0a0e15;
+    --dark-90: #202531;
+    --dark-80: #37404f;
+    --dark-70: #4e5766;
+    --dark-60: #667085;
+}
+
+body {
+    background-color: var(--light-100);
+    color: var(--dark-100);
+    font-size: 16px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
